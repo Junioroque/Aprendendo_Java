@@ -27,5 +27,6 @@ public class D_desafio_imprime_diferencia_de_idade {
         }
         System.out.println("****************************** ");
 
+        idade.close();
     }
 }

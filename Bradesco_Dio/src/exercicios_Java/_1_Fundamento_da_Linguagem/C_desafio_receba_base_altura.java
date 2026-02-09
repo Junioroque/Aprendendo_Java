@@ -21,5 +21,7 @@ public class C_desafio_receba_base_altura {
 
         System.out.printf("A área do retangulo é: %.2f ", area);
 
+        var.close();
+
     }
 }
