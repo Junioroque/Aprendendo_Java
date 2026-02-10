@@ -21,23 +21,30 @@ public class sintaxe_basica {
         System.out.println("Qual serviço que o senhor deseja? ");
         String servico = valor.nextLine();
 
-        String EC2 = "Preciso de um servidor para rodar aplicacoes";
-        String S3 = "Quero armazenar imagens e videos";
-        String RDS = "Necessito de um banco de dados realcional";
-        String Lambda = "Preciso executar funcoes sem servidor";
-        String Servico_desconhecido = "Solicito um servico de inteligencia artificial";
+            String texto = servico.toLowerCase();
 
-        if(EC2.equals(servico)){
+        //String EC2 = "preciso de um servidor para rodar aplicacoes";
+        //String S3 = "quero armazenar imagens e videos";
+        //String RDS = "necessito de um banco de dados realcional";
+        //String Lambda = "preciso executar funcoes sem servidor";
+
+
+        if("preciso de um servidor para rodar aplicacoes".equals(texto))
             System.out.println("EC2");
-        } else if (S3.equals(servico)) {
+
+        else if ("quero armazenar imagens e videos".equals(texto))
             System.out.println("S3");
-        }else if(RDS.equals(servico)){
+
+        else if("necessito de um banco de dados relacional".equals(texto))
             System.out.println("RDS");
-        }else if (Lambda.equals(servico)) {
+
+        else if ("preciso executar funcoes sem servidor".equals(texto))
             System.out.println("Lambda");
-        }else {
+
+        else
             System.out.println("Servico desconhecido");
-        }
+
+        valor.close();
     }
 }
 
