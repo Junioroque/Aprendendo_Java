@@ -2,7 +2,7 @@ package Desafios.A_basicos_java;
 
 import java.util.Scanner;
 
-public class sintaxe_basica {
+public class Sintaxe_Basica {
 /*
    AWS Service Matcher: Identifique O Serviço Ideal Para Cada Demanda.
    Uma única string representando a solicitação do cliente.
