@@ -15,6 +15,10 @@ public non-sealed class Manager extends Employee{
         super(code, name, address, age, salary);
     }
 
+    @Override
+    public String getCode(){
+        return "MN" + super.getCode();
+    }
     public Manager(){
 
     }

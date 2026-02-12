@@ -12,6 +12,11 @@ public non-sealed class Salesman extends Employee{
         super(code, name, address, age, salary);
     }
 
+    @Override
+    public String getCode(){
+        return "SL" + super.getCode();
+    }
+
     public Salesman(){
 
     }
