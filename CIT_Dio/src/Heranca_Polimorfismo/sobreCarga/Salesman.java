@@ -1,6 +1,6 @@
 package Heranca_Polimorfismo.sobreCarga;
 
-public non-sealed class Salesman extends Employee {
+public class Salesman extends Employee {
     private double percentPerSold;
 
     public Salesman(String code,

@@ -1,6 +1,6 @@
 package Heranca_Polimorfismo.sobreCarga;
 
-public non-sealed class Manager extends Employee {
+public class Manager extends Employee {
     private String login;
     private String name;
     private double commission;
