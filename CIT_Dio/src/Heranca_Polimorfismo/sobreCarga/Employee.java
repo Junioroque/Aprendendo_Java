@@ -1,4 +1,4 @@
-package Heranca_Polimorfismo;
+package Heranca_Polimorfismo.sobreCarga;
 
 public sealed abstract class Employee permits Manager, Salesman {
     private String code;

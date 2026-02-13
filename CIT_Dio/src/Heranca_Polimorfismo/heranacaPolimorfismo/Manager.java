@@ -1,4 +1,4 @@
-package Heranca_Polimorfismo;
+package Heranca_Polimorfismo.heranacaPolimorfismo;
 
 public non-sealed class Manager extends Employee{
     private String login;
